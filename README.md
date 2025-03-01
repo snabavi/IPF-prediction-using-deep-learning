@@ -6,7 +6,15 @@ Welcome to the IPF Prediction Using Deep Learning project! Idiopathic pulmonary 
 
 This repository presents a deep learning approach to predict the progression of IPF using the Kaggle Pulmonary Fibrosis Progression dataset, which includes computed tomography images and clinical information. By leveraging a proposed context-aware sequential-parallel hybrid transformer model and enriching predictions with clinical information, the method achieved a Laplace Log-Likelihood score of −6.508, outperforming previous techniques. This work highlights the potential of advanced deep learning models in providing accurate predictions, aiding in the diagnosis and management of IPF. The overview of the proposed method is shown in figure below:
 ![Alt Text](images/overview.png)
-
+### 📂 Repository Structure
+IPF-prediction-using-deep-learning/
+│── RegionGrowing/          # MATLAB scripts for data preprocessing and modeling
+│── model/          # Python scripts for deep learning model training and evaluation
+│── dataset/              # Sample dataset or links to dataset sources
+│── results/              # Results and performance metrics
+│── images/             # PNG diagrams illustrating the workflow
+│── README.md             # Project description and setup guide
+│── .gitignore            # Git ignore file
 
 
 
